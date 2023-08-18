@@ -23,6 +23,8 @@ public class LocatorEx {
 		
 		//driver.findElement(By.linkText("Images")).click();
 		driver.findElement(By.partialLinkText("Imag")).click();
+		
+		
     
 	}
 

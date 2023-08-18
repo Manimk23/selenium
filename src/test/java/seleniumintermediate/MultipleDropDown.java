@@ -1,3 +1,4 @@
+package seleniumintermediate;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -32,6 +33,12 @@ public class MultipleDropDown {
 	    {
 	    	System.out.println(soption.getText());
 	    }
+	    
+	    //deselecting
+	    
+	    sel.deselectAll();
+	    System.out.println("all options are deselected");
+		 
 	    
 	    driver.quit();
 	    
